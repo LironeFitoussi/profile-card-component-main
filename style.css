@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    width: 80vw;
+    justify-content: center;
+    /* height: 50vh; */
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content > img{
+    border-radius: 10rem;
+    scale: 30%;
+}
+
+.card-content > h1 , p {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social-el > p {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
